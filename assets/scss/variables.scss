@@ -17,7 +17,7 @@
 
     --tag-border-radius: 4px;
 
-    --section-separation: 40px;
+    --section-separation: 30px;
 
     &[data-scheme="dark"] {
         --body-background: #303030;
@@ -165,7 +165,7 @@
     --container-padding: 15px;
 
     @include respond(md) {
-        --container-padding: 20px;
+        // --container-padding: 20px;
     }
 
     --widget-separation: var(--section-separation);
